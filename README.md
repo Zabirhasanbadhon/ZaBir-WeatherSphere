@@ -1,4 +1,5 @@
-🌦️ ZaBir WeatherSphere
+* 🌦️ ZaBir WeatherSphere
+  
 ✨ A Modern Glassmorphism Weather Dashboard
 
 A beautiful, real-time weather dashboard built with Python, Tkinter, and the Open-Meteo API. Featuring a transparent glass interface, dynamic backgrounds, city autocomplete, and interactive hourly forecasts.
