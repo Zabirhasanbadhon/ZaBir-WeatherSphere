@@ -103,3 +103,9 @@ Pressure Unit	hPa
 Refresh Interval	10 minutes
 Forecast Type	Hourly
 Interface Style	Transparent Glassmorphism
+
+## 👨‍💻 Author
+
+**Zabir Hasan**
+
+🌐 https://www.zabirhasan.com
