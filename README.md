@@ -19,7 +19,6 @@ Pillow (PIL) — Background image processing, transparency effects, and image re
 Requests — HTTP requests to weather and geocoding APIs
 Threading — Background network requests to keep the interface responsive
 Open-Meteo API — Weather forecasts and city geocoding
-
 ⚙️ Configuration
 
 The application settings can be customized in the configuration section of the Python code.
@@ -31,7 +30,6 @@ DEFAULT_COUNTRY — Default country (Bangladesh)
 WINDOW_WIDTH and WINDOW_HEIGHT — Initial window dimensions
 MIN_WIDTH and MIN_HEIGHT — Minimum window dimensions
 REFRESH_INTERVAL — Automatic refresh interval, set to 10 minutes
-
 🌐 API Data Sources
 
 The application uses the following Open-Meteo endpoints:
@@ -47,7 +45,6 @@ Temperature Unit: Celsius (°C)
 Wind Speed Unit: Kilometers per hour (km/h)
 Automatic Refresh: Every 10 minutes
 Interface: Transparent glass-style weather dashboard
-
 🛡️ Error Handling
 
 The application handles:
@@ -57,9 +54,3 @@ Unsuccessful API requests and connection errors
 City searches with no matching results
 Weather data retrieval failures
 Invalid or incomplete API responses
-
-## 👨‍💻 Author
-
-**Zabir Hasan**
-
-🌐 https://www.zabirhasan.com
