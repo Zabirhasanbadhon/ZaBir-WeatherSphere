@@ -108,4 +108,4 @@ Interface Style	Transparent Glassmorphism
 
 **Zabir Hasan**
 
-🌐 https://www.zabirhasan.com
+🌐 www.zabirhasan.com
