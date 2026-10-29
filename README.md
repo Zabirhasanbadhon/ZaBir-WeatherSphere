@@ -1,10 +1,11 @@
-* 🌦️ ZaBir WeatherSphere
+# 🌦️ ZaBir WeatherSphere
   
-✨ A Modern Glassmorphism Weather Dashboard
+# ✨ A Modern Glassmorphism Weather Dashboard
 
 A beautiful, real-time weather dashboard built with Python, Tkinter, and the Open-Meteo API. Featuring a transparent glass interface, dynamic backgrounds, city autocomplete, and interactive hourly forecasts.
 
-🌤️ Key Features
+# 🌤️ Key Features
+
 Real-Time Weather: Displays temperature, feels-like temperature, weather conditions, humidity, wind speed, and air pressure.
 Smart City Search: Search for cities worldwide with autocomplete suggestions.
 Interactive Hourly Forecast: Explore upcoming hourly temperatures, weather conditions, and precipitation probabilities.
@@ -13,7 +14,9 @@ Responsive Layout: Adapts the dashboard to different application window sizes.
 Automatic Weather Updates: Refreshes weather information every 10 minutes.
 Dynamic Background: Uses a custom background image with a generated gradient fallback when the image is unavailable.
 Keyboard Navigation: Supports keyboard controls for searching and navigating city suggestions.
-🛠️ Technologies & Tools
+
+# 🛠️ Technologies & Tools
+
 Technology	Purpose
 Python	Core application logic
 Tkinter	Graphical user interface
@@ -21,7 +24,8 @@ Pillow (PIL)	Image processing, brightness adjustment, and glass effects
 Requests	HTTP requests to weather and geocoding APIs
 Threading	Background network requests for a responsive interface
 Open-Meteo API	Weather forecasts and city geocoding
-⚙️ Application Configuration
+
+# ⚙️ Application Configuration
 
 Customize the dashboard through the configuration variables in the Python source code.
 
@@ -35,23 +39,24 @@ WINDOW_HEIGHT	Initial window height	900
 MIN_WIDTH	Minimum window width	1000
 MIN_HEIGHT	Minimum window height	700
 REFRESH_INTERVAL	Automatic refresh interval	10 minutes
-🌐 Weather API & Data Sources
+
+# 🌐 Weather API & Data Sources
 
 ZaBir WeatherSphere uses the free Open-Meteo API to retrieve weather information and search for geographical locations.
 
-🌦️ Weather Forecast API
+# 🌦️ Weather Forecast API
 
 Provides current weather conditions and hourly forecast data.
 
 🔗 https://api.open-meteo.com/v1/forecast
 
-🗺️ Geocoding API
+# 🗺️ Geocoding API
 
 Searches for cities and retrieves their geographical coordinates.
 
 🔗 https://geocoding-api.open-meteo.com/v1/search
 
-📊 Weather Data
+# 📊 Weather Data
 
 The dashboard retrieves:
 
@@ -64,7 +69,7 @@ Weather codes used to display icons and descriptions
 
 Default units: Celsius (°C), kilometers per hour (km/h), and hectopascals (hPa).
 
-🎨 User Interface & Design
+# 🎨 User Interface & Design
 
 The dashboard combines modern visual styling with practical weather information.
 
@@ -74,7 +79,8 @@ Weather Icons: Visual indicators for sunny, cloudy, rainy, snowy, and stormy con
 Interactive Search: Canvas-rendered search field with autocomplete suggestions.
 Hourly Navigation: Previous and next arrows for browsing forecast cards.
 Dynamic Layout: Dashboard elements are redrawn when the window is resized.
-🔄 Automatic Updates & Error Handling
+
+# 🔄 Automatic Updates & Error Handling
 
 The application includes mechanisms to improve reliability and responsiveness.
 
@@ -85,7 +91,9 @@ Displays an error dialog when weather data cannot be retrieved.
 Provides a fallback background if the configured image is unavailable.
 Handles searches that return no matching city results.
 Ignores outdated search and weather responses to prevent stale results from replacing newer data.
-📋 Default Application Settings
+
+# 📋 Default Application Settings
+
 Property	Value
 Application Name	ZaBir WeatherSphere
 Default Location	Dhaka, Bangladesh
