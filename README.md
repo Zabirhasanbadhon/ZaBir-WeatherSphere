@@ -57,3 +57,9 @@ Unsuccessful API requests and connection errors
 City searches with no matching results
 Weather data retrieval failures
 Invalid or incomplete API responses
+
+## 👨‍💻 Author
+
+**Zabir Hasan**
+
+🌐 https://www.zabirhasan.com
